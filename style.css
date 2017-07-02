@@ -1,0 +1,68 @@
+/*html {
+    box-sizing: border-box;
+}*/
+
+body {
+    background-image: url('56657132-Binary-code-rainbow-and-white-background-with-digits-on-screen-Algorithm-binary-data-code-decryption-Stock-Vector.jpg');
+    background-size: 500px auto;
+
+}
+.center {
+text-align: center;
+}
+
+#app {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256,256,256,0.8)
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+/*#guess-list {
+        margin-top:2px;
+}*/
+.guess {
+    display:inline;
+    border: 1px solid black;
+    border-radius: 10%;
+    font-size: 60px;
+    padding: 0 25px;
+}
+
+#player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+    box-shadow: -50px 50px 100px #888888;
+}
+#submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    box-shadow: -50px 50px 100px #888888;
+}
+#input-parent {
+  width: 160px;
+  margin: 5% auto 50px;
+  position: relative;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: inherit;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
